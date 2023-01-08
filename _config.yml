@@ -1,6 +1,12 @@
 # WhatATheme
 markdown: kramdown
-
+kramdown:
+  input: GFM
+  hard_wrap: False
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: bash
+    span: false
 # URL of the Site
 url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
@@ -11,40 +17,40 @@ title: Mahra Rahimi
 # Description of the Site
 description: Developer Blog
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Blog, Tech, Develop
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-
+heroimage: /assets/images/bg.jpeg
+#roll192_003.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
+email: mahra.rah@gmail.com
 facebook_username:
 twitter_username:
 instagram_username:
-linkedin_username: thedevslot
+linkedin_username: 
 github_username:  MahrRah
 youtube_channel_id:
 
 
-# Google Analytics
-google-analytics: UA-163806439-1
+# # Google Analytics
+# google-analytics: UA-163806439-1
 
-# Disqus
-disqus-shortname: thedevslot
+# # Disqus
+# disqus-shortname: thedevslot
 
 # Name of the Author
 author-name: Mahra Rahimi
 # URL for the Image of the Author
 author-image: /assets/images/author-image.jpg
 # 60 Words About the Author
-author-about: Software Engineer at Microsoft CSE and former Student in Blackhole Astrophysics at ETH Zurich
+author-about: I am Mahra a Software Engineer at Microsoft with a background in astrophysics. A physics nerd who has lost her way in the world of tech. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/MahrRah
 
 # SASS
 sass:

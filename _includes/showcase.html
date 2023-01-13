@@ -8,9 +8,17 @@
         {{site.description}}
       </h3>
       <hr>
-      <a href="{{site.url}}{{site.baseurl}}/#about"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
-      </a>
+      <div>
+        <a href="{{site.url}}{{site.baseurl}}/#about"
+          class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">About me</a>
+        </a>
+        <a href="https://dev.to/mahrrah"
+          class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Blog</a>
+        </a>
+        {% unless site.github_username ==  %}
+                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal"><i class="fab fa-github"></i></a>
+                {% endunless %}
+      </div>
     </div>
   </div>
 </section>
